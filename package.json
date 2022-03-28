@@ -1,0 +1,19 @@
+{
+  "name": "014-sass-by-myself",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "keywords": [],
+  "author": "Hammed",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.49.9"
+  },
+  "scripts": {
+    "serve": "live-server src",
+    "watch": "sass --watch src/scss:src/styles",
+    "start": "run-p serve watch"
+  }
+}
